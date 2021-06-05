@@ -1,0 +1,11 @@
+# Componentes
+    - São funções que retornar jsx e cada arquivo deve posuir somente um Componentes; 
+    - Sempre que uma função do react começar com "use" ela é um hook;
+    - Imutabilidade: Uma variável nunca vai ter seu valor alterado, não podemos alterar 
+    o valor dela, mas temos que assinar um novo valor para ela; Criamos um novo espaço na 
+    memória; 
+    - Quando o webpack faz um refresh ele reseta a aplicação para o estado inicial dela; 
+    - fast-refresh -> Faz a aplicação não voltar para o estado atual quando atualizado, ele
+    mantém o estado dos coponentes; 
+    - O código dentro de um componente é renderizado toda vez que o componente atualiza; 
+    
